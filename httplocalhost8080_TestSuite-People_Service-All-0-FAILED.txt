@@ -1,0 +1,36 @@
+Status: FAILED
+Time Taken: 37
+Size: 133
+Timestamp: Thu Mar 30 16:52:17 PDT 2017
+TestStep: All
+
+----------------- Messages ------------------------------
+[Match content of [lastName]] Comparison failed. Path: [$['i']['lastName']]; Expected value: []; Actual value: [Poppins].
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:8080
+Method: GET
+StatusCode: 200
+URL: http://localhost:8080/all
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/1.8.0_51)]
+Host: [localhost:8080]
+Accept-Encoding: [gzip,deflate]
+
+GET http://localhost:8080/all HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: localhost:8080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_51)
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+#status#: [HTTP/1.1 200 ]
+Date: [Thu, 30 Mar 2017 23:52:17 GMT]
+Content-Type: [application/json;charset=UTF-8]
+
+{"i":{"id":"i","firstName":"Mary","lastName":"Poppins","age":5},"ii":{"id":"ii","firstName":"Bifford","lastName":"McKinny","age":51}}
