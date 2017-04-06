@@ -15,6 +15,7 @@ public class PeopleFinderSteps {
 
 	private SoapUIProTestCaseRunner soapUI;
 
+	// XXX How to set TestCase Properties?
 	@Given("^I am searching for someone$")
 	public void i_am_searching_for_someone() throws Throwable {
 		soapUI = new SoapUIProTestCaseRunner();
