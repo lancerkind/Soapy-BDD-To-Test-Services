@@ -7,4 +7,4 @@ They can be cloned using the following commands or by fiddeling with the GitHub 
 git clone -b BDD_tests_branch https://github.com/lancerkind/Soapy-BDD-To-Test-Services.git demo_service_tests
 git clone -b service_branch https://github.com/lancerkind/Soapy-BDD-To-Test-Services.git demo_service
 ```
-A great article which uses this example to walk you through how to use BDD and SoapUI to test services is at: http://agilenoir.biz/getting-service-apis-to-behave-using-bdd-soapui/
+As is, I'm disappointed the eclipse .project file isn't in the demo_service_tests so you'll need to add your dependencies by hand for Cucumber and SoapUI.  These steps are describe in the following article which walks you through how to use BDD and SoapUI to test services: http://agilenoir.biz/getting-service-apis-to-behave-using-bdd-soapui/
