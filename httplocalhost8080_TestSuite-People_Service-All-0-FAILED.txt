@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Thu Mar 23 07:42:35 PDT 2017
+TestStep: All
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+
+- missing response / garbage collected -
