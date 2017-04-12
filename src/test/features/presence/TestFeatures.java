@@ -1,4 +1,4 @@
-package test.features;
+package test.features.presence;
 
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;

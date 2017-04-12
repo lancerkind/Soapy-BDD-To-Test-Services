@@ -1,4 +1,4 @@
-package test.features;
+package test.features.presence;
 
 import com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner;
 
