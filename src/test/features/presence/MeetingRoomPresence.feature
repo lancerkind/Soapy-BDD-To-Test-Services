@@ -6,7 +6,8 @@ I want to discover a co-workers location.
 Scenario: Finding meeting room occupant
 Given "Kevin Bacon" is in meeting room "Annapolis L2-Sacajawea-10"
 When listing everyone in "Annapolis L2-Sacajawea-10"
-Then "Kevin Bacon" is listed. 
+Then "Kevin Bacon" is listed.
+#Then "Mary Poppins" is listed. 
 
 Scenario: Not finding meeting room occupant 
 Given "Kevin Bacon" is in meeting room "Annapolis L2-Sacajawea-10"

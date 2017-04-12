@@ -30,7 +30,8 @@ public class MeetingRoomPresenceSteps {
 		String nameParts[] = fullName.split(" ");
 		String firstName = nameParts[0];
 		String lastName = nameParts[1];
-		String [] properties = {"lastName="+lastName, "firstName="+ firstName};
+		// Make sure the property names in the below strings are spelled the same as what soapUI expects
+		String [] properties = {"last_name="+lastName, "first_name="+ firstName};
 		
 		soapUI.setProjectProperties(properties);
 		soapUI.run();
